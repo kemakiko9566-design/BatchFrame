@@ -1,0 +1,18 @@
+node_modules/
+dist/
+technical-spike/test-output/
+
+# Local logs, caches and machine-specific files
+*.log
+.vite/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local credentials
+.env
+.env.*
+!.env.example
